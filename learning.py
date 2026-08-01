@@ -1,3 +1,3 @@
-hello world
-hello python
-print"hello your welcome"
+"hello world"
+"hello python"
+print("hello your welcome")
