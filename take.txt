@@ -1,2 +1,0 @@
-the first line in take.txt
-the second line in take.txt
