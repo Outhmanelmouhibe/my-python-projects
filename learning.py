@@ -1,4 +1,5 @@
-message="un simple programme qui va donner le mention de votre note"
+#####
+##message="un simple programme qui va donner le mention de votre note"
 print(message)
 
 port= int(input("enter your note:"))
@@ -25,7 +26,7 @@ else:
       print ("trés bien")
     if port  >= 18 and port < 20 :
           print("excellent","felicitation exceptionnel")
-print("\n fin du programme")
+##print("\n fin du programme")
             
         
 
