@@ -1,5 +1,6 @@
 message="un simple programme qui va donner le mention de votre note"
 print(message)
+print("*" len())
 port= int(input("enter your note:"))
 if port < 0 or port >=20 :
        print ("invalide note")
