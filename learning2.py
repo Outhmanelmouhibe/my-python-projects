@@ -1,9 +1,6 @@
-personne={
-    "othman": {"moyenne": 15, "mention":"bien", "age":20},
-    "youssef": {"moyenne": 12, "mention":"satisfaisant", "age":22},
-    "rachid": {"moyenne": 14, "mention":"bien", "age":21},
-    "ahmed": {"moyenne": 16, "mention":"très bien", "age":23}
+def somme(a=1,b=0,C=1):
+    return a+b+C
+sm=somme(5,6,1)
+fl=sm/2
+print(fl)
     
-}
-for key,valeu in personne.items():
-    print(key,valeu["mention"])
