@@ -2,10 +2,12 @@
 i = 0
 somme = 0
 for i in range(4):
+    
     note= int(input("entre votre note:"))
     while note < 0 or note > 20:
         print("la note est invalide, entrer une note comprise entre 0 et 20:")
         note= int(input("entre votre note:"))
+
     somme = somme + note
     moyenne = somme // 4
 print("la moyenne est:", moyenne)         
